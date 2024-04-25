@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* fb-form-style */
+.fb-sec{
+  width:35%;
+  margin:auto;
+}
+.fb-sec h1{
+  text-align:center;
+  color:blue;
+}
+.fb-form{
+  width:100%;
+  height:80%;
+  border:1px solid black;
+}
+.fb-form h2{
+  text-align:center;
+}
+.fb-form h6{
+  text-align:center;
+  color:darkgray;
+}
+.firstname{
+  width:45%;
+  margin-left:10px;
+}
+.surname{
+  width:46%;
+  margin-left:20px;
+}
+.mobemail{
+  width:95%;
+  height:35px;
+  margin-left:10px;
+}
+.psw{
+  width:95%;
+  height:35px;
+  margin-left:10px;
+}
+.fb-dob{
+  margin-left:10px;
+}
+.birthday{
+  margin-left:10px;
+  width:27%;
+}
+.birth-month{
+  margin-left:25px;
+  width:27%;
+}
+.birth-year{
+  width:27%;
+  margin-left:25px;
+}
+.fb-gender{
+  margin-left:10px;
+}
+.fb-gender1{
+  margin-left:10px;
+}
+.fb-gender2{
+  margin-left:20px;
+}
+.fb-gender3{
+  margin-left:20px;
+}
+.fb-but{
+  text-align:center;
+  margin-left:150px;
+  background-color:darkgreen;
+  border: 1px solid darkgreen;
+  padding:10px 40px;
+  color:#fff;
+}
+
+
